@@ -10,6 +10,7 @@ void main() {
     int inputNum;
 
     printf("Enter operation number: ");
+    // final bug fix: read menu choice correctl
     scanf_s("%d", &inputNum);
 
     switch (inputNum)
